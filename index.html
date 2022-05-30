@@ -4,49 +4,43 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="root.css">
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="styles/style.css" />
     <title>First Page layout</title>
   </head>
   <body>
-      
     <section class="about">
       <div class="container">
         <header class="header">
           <div class="header__logo">
-            <img src="assets/icon_logo.svg" alt="logo" />
+            <svg>
+              <use href="assets/sprite.svg#header-logo"></use>
+            </svg>
           </div>
           <nav class="header__nav">
-            <ul class="header__nav__list">
-              <li class="header__nav__list__item">
-                <a href="/">features</a>
+            <ul class="header__nav-list">
+              <li class="header__nav-list-item">
+                <a class="header__nav-link" href="/">features</a>
               </li>
-              <li class="header__nav__list__item">
-                <a href="/">Works</a>
+              <li class="header__nav-list-item">
+                <a class="header__nav-link" href="/">Works</a>
               </li>
-              <li class="header__nav__list__item">
-                <a href="/">Our team</a>
+              <li class="header__nav-list-item">
+                <a class="header__nav-link" href="/">Our team</a>
               </li>
-              <li class="header__nav__list__item">
-                <a href="/">testimonials</a>
+              <li class="header__nav-list-item">
+                <a class="header__nav-link" href="/">testimonials</a>
               </li>
-              <li class="header__nav__list__item">
-                <a href="/">download</a>
+              <li class="header__nav-list-item">
+                <a class="header__nav-link" href="/">download</a>
               </li>
             </ul>
           </nav>
         </header>
-        <div class="about__content">
-          <h1 class="about__content__title">
+        <div class="content">
+          <h1 class="content__title">
             Your Favorite One Page Multi Purpose Template
           </h1>
-          <h3 class="about__content__description">
+          <h3 class="content__description">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
             commodo cursus magna vel scelerisque nisl consectetur et.
           </h3>
@@ -59,24 +53,36 @@
       <div class="container2">
         <div class="container2__line container2__line1">
           <div class="container2__card">
-            <img src="assets/icon_1.svg" alt="icon" />
+            <svg>
+              <use href="assets/sprite.svg#icon1"></use>
+            </svg>
           </div>
-          <div class="container2__card container2__card__icon2">
-            <img src="assets/icon_2.svg" alt="icon" />
+          <div class="container2__card container2__card-icon2">
+            <svg>
+              <use href="assets/sprite.svg#icon2"></use>
+            </svg>
           </div>
           <div class="container2__card">
-            <img src="assets/icon_3.svg" alt="icon" />
+            <svg>
+              <use href="assets/sprite.svg#icon3"></use>
+            </svg>
           </div>
         </div>
         <div class="container2__line container2__line2">
           <div class="container2__card">
-            <img src="assets/icon_4.svg" alt="icon" />
+            <svg>
+              <use href="assets/sprite.svg#icon4"></use>
+            </svg>
           </div>
-          <div class="container2__card container2__card__icon5">
-            <img src="assets/icon_5.svg" alt="icon" />
+          <div class="container2__card container2__card-icon5">
+            <svg>
+              <use href="assets/sprite.svg#icon5"></use>
+            </svg>
           </div>
           <div class="container2__card">
-            <img src="assets/icon_6.svg" alt="icon" />
+            <svg>
+              <use href="assets/sprite.svg#icon6"></use>
+            </svg>
           </div>
         </div>
       </div>
@@ -85,31 +91,242 @@
     <section class="gallery">
       <div class="container3">
         <div class="container3__line">
-          <div class="container3__line__item">
+          <div class="container3__line-item">
             <img src="assets/image_1.jpg" alt="image" />
+            <div class="hidden">
+              <div class="hidden-title">Project Name</div>
+              <div class="hidden-subtitle">User Interface Design</div>
+            </div>
           </div>
-          <div class="container3__line__item">
+
+          <div class="container3__line-item">
             <img src="assets/image_2.jpg" alt="image" />
+            <div class="hidden">
+              <div class="hidden-title">Project Name</div>
+              <div class="hidden-subtitle">User Interface Design</div>
+            </div>
           </div>
-          <div class="container3__line__item">
+          <div class="container3__line-item">
             <img src="assets/image_3.jpg" alt="image" />
+            <div class="hidden">
+              <div class="hidden-title">Project Name</div>
+              <div class="hidden-subtitle">User Interface Design</div>
+            </div>
           </div>
-          <div class="container3__line__item">
+          <div class="container3__line-item">
             <img src="assets/image_4.jpg" alt="" />
+            <div class="hidden">
+              <div class="hidden-title">Project Name</div>
+              <div class="hidden-subtitle">User Interface Design</div>
+            </div>
           </div>
         </div>
         <div class="container3__line">
-          <div class="container3__line__item">
+          <div class="container3__line-item">
             <img src="assets/image_5.jpg" alt="image" />
+            <div class="hidden">
+              <div class="hidden-title">Project Name</div>
+              <div class="hidden-subtitle">User Interface Design</div>
+            </div>
           </div>
-          <div class="container3__line__item">
+          <div class="container3__line-item">
             <img src="assets/image_6.jpg" alt="image" />
+            <div class="hidden">
+              <div class="hidden-title">Project Name</div>
+              <div class="hidden-subtitle">User Interface Design</div>
+            </div>
           </div>
-          <div class="container3__line__item">
+          <div class="container3__line-item">
             <img src="assets/image_7.jpg" alt="image" />
+            <div class="hidden">
+              <div class="hidden-title">Project Name</div>
+              <div class="hidden-subtitle">User Interface Design</div>
+            </div>
           </div>
-          <div class="container3__line__item">
+          <div class="container3__line-item">
             <img src="assets/image_8.jpg" alt="image" />
+            <div class="hidden">
+              <div class="hidden-title">Project Name</div>
+              <div class="hidden-subtitle">User Interface Design</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="people">
+      <div class="container4">
+        <div class="container4__card">
+          <div class="container4__card-image">
+            <img src="assets/person1.jpg" alt="image" />
+          </div>
+          <div class="container4__card-title">Ruth woods</div>
+          <div class="container4__card-subtitle">founder, ceo</div>
+          <div class="container4__card-description">
+            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
+            nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam
+            eget risus varius blandit sit amet non magna. Nullam quis risus eget
+            urna mollis ornare vel eu leo.
+          </div>
+          <div class="container4__card-icon">
+            <svg>
+              <use href="assets/sprite.svg#facebook"></use>
+            </svg>
+            <svg>
+              <use href="assets/sprite.svg#twitter"></use>
+            </svg>
+            <svg>
+              <use href="assets/sprite.svg#linkedin"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="container4__card">
+          <div class="container4__card-image">
+            <img src="assets/person2.jpg" alt="image" />
+          </div>
+          <div class="container4__card-title">Timothy Reed</div>
+          <div class="container4__card-subtitle">co-founder, developer</div>
+          <div class="container4__card-description">
+            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
+            nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam
+            eget risus varius blandit sit amet non magna. Nullam quis risus eget
+            urna mollis ornare vel eu leo.
+          </div>
+          <div class="container4__card-icon">
+            <svg>
+              <use href="assets/sprite.svg#facebook"></use>
+            </svg>
+            <svg>
+              <use href="assets/sprite.svg#twitter"></use>
+            </svg>
+            <svg>
+              <use href="assets/sprite.svg#linkedin"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="container4__card">
+          <div class="container4__card-image">
+            <img src="assets/person3.jpg" alt="image" />
+          </div>
+          <div class="container4__card-title">Victoria Vladez</div>
+          <div class="container4__card-subtitle">ui designer</div>
+          <div class="container4__card-description">
+            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
+            nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam
+            eget risus varius blandit sit amet non magna. Nullam quis risus eget
+            urna mollis ornare vel eu leo.
+          </div>
+          <div class="container4__card-icon">
+            <svg>
+              <use href="assets/sprite.svg#facebook"></use>
+            </svg>
+            <svg>
+              <use href="assets/sprite.svg#twitter"></use>
+            </svg>
+            <svg>
+              <use href="assets/sprite.svg#linkedin"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="container4__card">
+          <div class="container4__card-image">
+            <img src="assets/person4.jpg" alt="image" />
+          </div>
+          <div class="container4__card-title">Beverly Little</div>
+          <div class="container4__card-subtitle">data scientist</div>
+          <div class="container4__card-description">
+            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
+            nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam
+            eget risus varius blandit sit amet non magna. Nullam quis risus eget
+            urna mollis ornare vel eu leo.
+          </div>
+          <div class="container4__card-icon">
+            <svg>
+              <use href="assets/sprite.svg#facebook"></use>
+            </svg>
+            <svg>
+              <use href="assets/sprite.svg#twitter"></use>
+            </svg>
+            <svg>
+              <use href="assets/sprite.svg#linkedin"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote">
+      <div class="container5">
+        <div class="container5__image">
+          <img src="assets/quote_image.jpg" alt="image" />
+        </div>
+        <div class="container5__quote">
+          <p class="container5__quote-main">
+            “Integer posuere erat a ante venenatis dapibus posuere velit
+            aliquet. Donec sed odio dui. Aenean eu leo quam...”
+          </p>
+          <p class="container5__quote-sub">
+            Susan Sims, Interaction Designer at XYZ
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="swipe">
+      <svg class="icon-dots">
+        <use href="assets/sprite.svg#dots"></use>
+      </svg>
+    </div>
+
+    <section class="download">
+      <div class="container6">
+        <div class="container6__title">
+          Are You Ready to Start? Download Now For Free!
+        </div>
+        <div class="container6__sub-title">
+          Fusce dapibus, tellus ac cursus commodo
+        </div>
+        <button type="button" class="button">download here</button>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="box1">
+        <div class="box1__item1">
+          <div class="box1__item1-title">Location</div>
+          <div class="box1__item1-description">
+            3481 Melrose Place Beverly Hills, CA 90210
+          </div>
+        </div>
+        <div class="box1__item2">
+          <div class="box1__item2-title">Share with Love</div>
+          <div class="box1__item2-icon">
+            <svg>
+              <use href="assets/sprite.svg#facebook"></use>
+            </svg>
+            <svg>
+              <use href="assets/sprite.svg#twitter"></use>
+            </svg>
+            <svg>
+              <use href="assets/sprite.svg#linkedin"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="box1__item3">
+          <div class="box1__item3-title">About ActiveBox</div>
+          <div class="box1__item3-description">
+            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec
+            ullamcorper nulla non metus auctor fringilla.
+          </div>
+        </div>
+      </div>
+      <div class="box2">
+        <div class="box2__item">
+          <div class="box2__item-description">
+            Copyright © 2015 ActiveBox. All Rights
+          </div>
+          <div class="box2__item-sub-description">
+            Reserved Made with <span>By Kamal Chaneman</span>
           </div>
         </div>
       </div>
